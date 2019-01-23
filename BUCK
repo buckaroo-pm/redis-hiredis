@@ -6,7 +6,7 @@ core_foundation = buckaroo_deps_from_package('github.com/buckaroo-pm/libuv')
 
 cxx_library(
   name = 'hiredis',
-  header_namespace = '',
+  header_namespace = 'hiredis',
   exported_headers = glob([
     'adapters/*.h',
     '*.h',
