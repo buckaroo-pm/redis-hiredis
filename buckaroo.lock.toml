@@ -1,0 +1,17 @@
+manifest = "874266e7feaed3c9f86719e61bc0d2927fc5280a16cfad8ba446fdb228a80e3a"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-core-foundation"
+target = "//:core-foundation"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/libuv"
+target = "//:uv"
+
+[lock."github.com/buckaroo-pm/host-core-foundation"]
+versions = [ "branch=master" ]
+revision = "fd7081ffe1244afb86c41c2d41d3603f851feae8"
+
+[lock."github.com/buckaroo-pm/libuv"]
+versions = [ "branch=v1.x" ]
+revision = "fc3570b7a90c0daa9a091f982a75d6b54f83cf19"

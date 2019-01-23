@@ -1,0 +1,9 @@
+targets = [ "//:hiredis" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-core-foundation"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/libuv"
+version = "branch=v1.x"

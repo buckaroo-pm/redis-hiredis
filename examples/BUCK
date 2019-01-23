@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'libuv',
+  srcs = [
+    'example-libuv.c',
+  ],
+  deps = [
+    '//:hiredis',
+  ],
+)
